@@ -1,0 +1,26 @@
+Assignment 2
+CSCE 251
+Derek Drake
+3/9/20
+
+1. Answer each of the following assuming that the permissions setting string is - rwx r-x r--
+	a) Is this a file or a directory?
+		file
+	b) Who has the most control in this case: the user, group or others?
+		The user because they have complete access.
+	c) Who all has both read and execute permission, but doesn't have write permission?
+		The group.
+	d) Who all has read permission?
+		Others.
+	e) Who all has write permission?
+		Only the user.
+
+2. Answer the following questions about the chmod command.  Give the entire command in your answer.
+	a) Using symbolic notation, how do you add read and write permission for the group?
+		chmod g+rw
+	b) Using symbolic notation, how would you set the permission of the user to read and write, but no execute?
+		chmod u=rw
+	c) Using numeric notation, how would you assign the permission string - rwx r-x --x?
+		chmod 751
+	d) Using numeric notation, how would you assign the permission string - rw- --- ---?
+		chmod 600
